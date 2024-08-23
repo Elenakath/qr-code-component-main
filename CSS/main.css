@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* General Styles */
+html {
+  font-family: "Outfit";
+}
+
+body {
+  background-color: #e6f3ff;
+}
+
+.hero {
+  background-color: white;
+}
+
+p {
+  font-size: 15px;
+}
