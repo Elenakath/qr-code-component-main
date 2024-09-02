@@ -14,6 +14,11 @@ body {
   background-color: #fbfaf5;
 }
 
+img {
+  height: 350px;
+  width: 370px;
+}
+
 p {
   font-size: 15px;
 }
