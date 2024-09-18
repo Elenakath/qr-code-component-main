@@ -10,23 +10,30 @@ body {
   background-color: #d5e1ef;
 }
 
+.content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 97px;
+}
 .hero {
   background-color: #ffffff;
   width: 320px;
   height: 499px;
-  padding-left: 15px;
-  padding-top: 10px;
-  margin-top: 125px;
-  margin-left: 34px;
   border-radius: 25px;
+  display: flex;
+  border-radius: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
   height: 288px;
   width: 288px;
   padding-top: 5px;
-  padding-left: 6px;
   border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
 }
 
 img:hover {
@@ -54,4 +61,8 @@ p {
   line-height: 140%;
   padding: 5px 20px;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Desktop Styles Here */
 }
