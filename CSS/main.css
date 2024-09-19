@@ -64,5 +64,9 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-  /* Desktop Styles Here */
+  /* Tablet Styles Here */
+
+  .content-wrapper {
+    padding-top: 102px;
+  }
 }
