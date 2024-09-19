@@ -65,8 +65,18 @@ p {
 
 @media only screen and (min-width: 768px) {
   /* Tablet Styles Here */
+  /* General Styles */
 
   .content-wrapper {
     padding-top: 102px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop styles here */
+  /* General Styles */
+
+  .content-wrapper {
+    padding-top: 45px;
   }
 }
