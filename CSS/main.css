@@ -36,12 +36,6 @@ img {
   justify-content: space-around;
 }
 
-img:hover {
-  padding-top: 0;
-  padding-left: 0;
-  border: 5px solid #d5e1ef;
-}
-
 .info {
   padding-right: 15px;
 }
@@ -77,6 +71,6 @@ p {
   /* General Styles */
 
   .content-wrapper {
-    padding-top: 45px;
+    padding-top: 0;
   }
 }
