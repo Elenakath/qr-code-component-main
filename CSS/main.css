@@ -15,7 +15,7 @@ body {
   justify-content: space-around;
   padding-top: 97px;
 }
-.hero {
+.card {
   background-color: #ffffff;
   width: 320px;
   height: 499px;
@@ -27,7 +27,7 @@ body {
   align-items: center;
 }
 
-img {
+.card__image {
   height: 288px;
   width: 288px;
   padding-top: 5px;
@@ -36,11 +36,11 @@ img {
   justify-content: space-around;
 }
 
-.info {
+.card__description {
   padding-right: 15px;
 }
 
-h1 {
+.card__title {
   padding: 0 10px;
   font-size: 22px;
   text-align: center;
@@ -48,7 +48,7 @@ h1 {
   font-weight: bold;
 }
 
-p {
+.card__p {
   font-size: 16px;
   color: #68778d;
   font-weight: 400;
