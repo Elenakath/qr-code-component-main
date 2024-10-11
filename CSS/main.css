@@ -4,6 +4,7 @@
 /* General Styles */
 html {
   font-family: "Outfit";
+  font-size: 16px;
 }
 
 body {
@@ -42,14 +43,14 @@ body {
 
 .card__title {
   padding: 0 10px;
-  font-size: 22px;
+  font-size: 1.375em;
   text-align: center;
   line-height: 120%;
   font-weight: bold;
 }
 
 .card__p {
-  font-size: 16px;
+  font-size: 1em;
   color: #68778d;
   font-weight: 400;
   line-height: 140%;
