@@ -14,15 +14,14 @@ body {
 .content-wrapper {
   display: flex;
   justify-content: space-around;
-  padding-top: 97px;
+  padding-top: 6.062em;
 }
 .card {
   background-color: #ffffff;
   width: 320px;
   height: 499px;
-  border-radius: 25px;
+  border-radius: 1.562em;
   display: flex;
-  border-radius: 25px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -31,18 +30,18 @@ body {
 .card__image {
   height: 288px;
   width: 288px;
-  padding-top: 5px;
-  border-radius: 15px;
+  padding-top: 0.312em;
+  border-radius: 0.937em;
   display: flex;
   justify-content: space-around;
 }
 
 .card__description {
-  padding-right: 15px;
+  padding-right: 0.937em;
 }
 
 .card__title {
-  padding: 0 10px;
+  padding: 0 0.625em;
   font-size: 1.375em;
   text-align: center;
   line-height: 120%;
@@ -54,7 +53,7 @@ body {
   color: #68778d;
   font-weight: 400;
   line-height: 140%;
-  padding: 5px 20px;
+  padding: 0.312em 1.25em;
   text-align: center;
 }
 
